@@ -1,0 +1,12 @@
+gq.com***www.gq.com/contributor/evan-angelastro *** 0.6737481031866464 *** 0.0 *** 0.0 *** 0.48888888888888893
+gq.com***report.gq.com/ *** 0.21150442477876108 *** 0.5898820570236653 *** 0.06293706293706292 *** 0.41482965931863724
+gq.com***www.gq.com/story/chance-the-rapper-snl-teacher-strike *** 0.49955791335101685 *** 0.0914696780568992 *** 0.24213406292749662 *** 0.4031620553359684
+gq.com***www.gq.com.mx/entretenimiento/articulo/mejores-estrenos-todas-plataformas-streaming-noviembre-2019 *** 0.43570265870862723 *** 0.050883348655917704 *** 0.10684931506849316 *** 0.43121693121693117
+templated.co***templated.co/splendorous *** 0.8426966292134832 *** 0.3932584269662922 *** 0.5384615384615384 *** 0.5871559633027523
+gmp-architekten.com***www.gmp-architekten.com/news/?tx_gmpnews_pi1%5BshowYear_1%5D=2010&cHash=ddf284dc937d725465c68145a87faebd *** 0.37716450216450215 *** 0.0 *** 0.0 *** 0.4233870967741935
+templated.co***templated.co/spatial *** 0.8064516129032258 *** 0.30645161290322576 *** 0.1097560975609756 *** 0.5148514851485149
+gmp-architekten.com***www.gmp-architekten.com/news/?tx_gmpnews_pi1%5BshowYear_2%5D=2015&cHash=86441106498ce1bdda4c1cb8e9c1a30f *** 0.30059777967549106 *** 0.0 *** 0.0 *** 0.4031007751937985
+templated.co***templated.co/glissade *** 0.8666666666666667 *** 0.38245614035087727 *** 0.0 *** 0.6
+gmp-architekten.com***www.gmp-architekten.com/news/?tx_gmpnews_pi1%5BshowYear_2%5D=2018&tx_gmpnews_pi1%5BshowYear_1%5D=2011&cHash=dd57a558c6ae50d1d9c837bc0e88b0ef *** 0.40362941738299907 *** 0.0 *** 0.0 *** 0.42460317460317465
+hiphoplately.com***www.hiphoplately.com/ti-says-kanye-west-is-back-to-the-old-ye/ *** 0.4815950920245399 *** 0.34740391555395167 *** 0.376453488372093 *** 0.4460641399416909
+cachorrisflix.com***cachorrisflix.com/ver-online/ *** 1.0 *** 0.0 *** 0 *** 1.0
