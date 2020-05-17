@@ -24,6 +24,7 @@ The structure of the repository is as follows:
 Configure the parameters in parallelProcessing.py to tune the crawl speed / websites list and launch it with Python 3. Crawl depth can be controlled via the totalLinks parameter in inaccessible*.py. Requirements.txt file is available for configuring dependencies.
 
 The structure of the generated results directory will be:
+
     .
     ├── links/                   # Internal links saved for each domain
     ├── logs/                    # Logs for each domain to record crawler activity
@@ -64,4 +65,4 @@ for a particular internal link. Results are delimited with *** chars and include
 
 ### Dataset
 
-We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@husky.neu.edu for support. 
+We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@husky.neu.edu for support.
