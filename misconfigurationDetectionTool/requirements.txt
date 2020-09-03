@@ -1,0 +1,5 @@
+bs4==0.0.1
+requests==2.4.0
+requests-file==1.4.3
+requests-html==0.10.0
+urllib3==1.24.1

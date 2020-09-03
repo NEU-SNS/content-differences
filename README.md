@@ -1,8 +1,25 @@
 # HTTP/S Content Differences Crawler
 
-Crawler and data analysis code for the paper "A Deeper Look at Web Content Availability and Consistency over HTTP/S" presented at Network Traffic Measurement and Analysis Conference (TMA) 2020.
+Crawler and data analysis code for the paper ["A Deeper Look at Web Content Availability and Consistency over HTTP/S"](./paper.pdf) presented at Network Traffic Measurement and Analysis Conference (TMA) 2020.
 
-The structure of the repository is as follows:
+---
+
+## HTTPS misconfigurations detection tool
+
+Web administrators can use our standalone script **misconfigurationDetectionTool/processSite.py** which takes only one argument, the site name, to check for potential HTTPS misconfigurations on their sites. At a high-level, it first launches recursive deep crawls to look for 250 internal links from the site (or from its HTTPS-supporting subdomains). Then, it opens each link multiple times over HTTP/S to assess web content availability and consistency issues.  
+
+The script is different from those used for the research study in the following ways:
+
+1. It skips the *robots.txt* checks, to allow for a better crawl.
+2. It identifies itself using a dummy user-agent.
+3. It does not wait for one day to re-confirm detected instances of unavailabilities/inconsistencies, but rather does it right away (the assumption here is that a site should not block the requests sent by this script, when launched by the site administrator).
+4. It does *not* amortize crawl load across a set of sites.
+
+To use the script, install Python 3 dependencies specified in **misconfigurationDetectionTool/requirements.txt**, and then run **python3 processSite.py example.com**. After the process has finished, look for files (if created) */tmp/content-differences.txt* and */tmp/content-unavailabilities.txt* for a list of URLs with issues. You should then be able to debug if the issues reflect any HTTPS misconfigurations on your site(s), by manually opening each URL over both HTTP and HTTPS in incognito browser sessions. For advanced usage, all the parameters used by the script are defined right in the start, so you may want to give that a look as well.  
+
+---
+
+The structure for the rest of repository is as follows:
 
 ## Crawler code
 
@@ -65,4 +82,4 @@ for a particular internal link. Results are delimited with *** chars and include
 
 ### Dataset
 
-We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@husky.neu.edu for support.
+We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if byte-wise different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@husky.neu.edu for support.
