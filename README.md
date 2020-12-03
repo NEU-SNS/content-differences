@@ -82,4 +82,4 @@ for a particular internal link. Results are delimited with *** chars and include
 
 ### Dataset
 
-We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if byte-wise different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@husky.neu.edu for support.
+We have data crawled for ~68k HTTPS supporting websites, which includes their internal links (at most 250) as well as content retrieved over HTTP/S (only if byte-wise different). It is around ~500GB in size, and we can make it available upon request. For ethical concerns, the data can only be used for research purposes. Please contact us at paracha.m@northeastern.edu for support. Although for testing purposes, we provide easy access to a sample of the crawled data (see Releases).
