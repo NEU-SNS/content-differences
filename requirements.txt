@@ -42,7 +42,7 @@ iotop==0.6
 isort==4.3.4
 itsdangerous==1.1.0
 jellyfish==0.7.1
-Jinja2==2.10
+Jinja2==2.11.3
 jmespath==0.9.3
 keyring==10.6.0
 keyrings.alt==3.0
