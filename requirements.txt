@@ -141,7 +141,7 @@ tzdata==1.2016.8
 ufw==0.35
 ujson==1.35
 unattended-upgrades==0.1
-urllib3==1.24.1
+urllib3==1.26.5
 virtualenv==16.2.0
 wcwidth==0.1.7
 webencodings==0.5.1
