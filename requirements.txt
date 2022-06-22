@@ -62,7 +62,7 @@ mxnet==1.1.0.post0
 netifaces==0.10.4
 networkx==2.2
 nltk==3.4
-numpy==1.15.4
+numpy==1.22.0
 oauthlib==2.1.0
 PAM==0.4.2
 pandas==0.23.4
