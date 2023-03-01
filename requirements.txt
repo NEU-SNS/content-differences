@@ -58,7 +58,7 @@ maxminddb==1.4.1
 mccabe==0.6.1
 msgpack==0.6.1
 munch==2.3.2
-mxnet==1.1.0.post0
+mxnet==1.9.1
 netifaces==0.10.4
 networkx==2.2
 nltk==3.4
