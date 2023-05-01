@@ -24,7 +24,7 @@ docutils==0.14
 dragnet==2.0.4
 editdistance==0.5.2
 Fiona==1.8.4
-Flask==1.0.2
+Flask==2.3.2
 Flask-SQLAlchemy==2.3.2
 ftfy==4.4.3
 gensim==3.6.0
