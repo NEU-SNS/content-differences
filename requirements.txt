@@ -101,7 +101,7 @@ PyYAML==3.13
 re2==0.2.22
 redis==3.0.1
 reppy==0.4.12
-requests==2.21.0
+requests==2.31.0
 requests-file==1.4.3
 requests-oauthlib==1.0.0
 requests-unixsocket==0.1.5
