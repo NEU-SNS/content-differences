@@ -61,7 +61,7 @@ munch==2.3.2
 mxnet==1.1.0.post0
 netifaces==0.10.4
 networkx==2.2
-nltk==3.4
+nltk==3.6.6
 numpy==1.15.4
 oauthlib==2.1.0
 PAM==0.4.2
