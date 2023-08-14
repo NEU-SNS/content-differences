@@ -131,7 +131,7 @@ termcolor==1.1.0
 tld==0.9.1
 tldextract==2.2.0
 toolz==0.9.0
-tornado==5.1.1
+tornado==6.3.3
 turicreate==5.3.1
 tweepy==3.7.0
 Twisted==17.9.0
